@@ -54,7 +54,7 @@ st.divider()
 st.header("🧠 Perfil Profesional")
 st.write(
     """
-    Ingeniero Civil en Electricidad con experiencia en **operación del sistema eléctrico, planificación,
+    Ingeniero Civil en Electricidad de la Universidad de Santiago con experiencia en **operación del sistema eléctrico, planificación,
     performance operacional y gestión de contratos**, en empresas de **generación, transmisión y distribución
     de energía**.
 
@@ -146,14 +146,41 @@ with st.expander("INACAP | Docente | **Periodo:** Enero 2025 – Febrero 2026"):
 # ---------------------------
 st.header("💡 Proyectos desarrollados")
 
-with st.expander("Plataforma gestión de solicitudes de suministro de gas"):
-
+with st.expander("Plataforma de Automatización y optimización operación Gas por ducto"):
     st.markdown(
         """
-        no sé que poner pero sirve
-        """
-    )
+        - Desarrollo de aplicación para automatizar proceso de nominaciones de gas, que considere múltiples suministros y estrategias de nominación.
+        - Disminución de tiempos de procesamiento de datos en un 50%
+        - Añade inteligencia en el negocio estableciendo estrategias en las solicitudes para cumplir con responsabilidades contractuales.
+        """)
 
+with st.expander("Automatización reportes clientes"):
+    st.markdown(
+        """
+        - Automatización reportes cliente Generadora Metropolitana, según define el contrato entre las partes.
+        - Disminución de tiempos de procesamiento de datos en un 70%
+        - Mejora la gestión contractual con el cliente satisfaciendo sus necesidades en tiempo y forma.
+        """ )
+
+with st.expander("Detección de anormalidades con Machine Learning"):
+    st.markdown(
+        """
+        - Con algoritmo de Isolation Forest (Machine Learning), lee carpeta de datos y detecta medidas anormales para gestión de fallas o demanda
+        - Disminución de tiempos de procesamiento de datos.
+        - Mejora en la toma de decisiones.
+        """ )
+
+with st.expander("Reporte automatico de seguimiento proyectos"):
+    st.markdown(
+        """
+        - Envio automático de correo diatio con seguimiento kpi en relación a proyectos de mejora en la red.
+        """ )
+
+with st.expander("Predicción de demanda energetica en base a Machine Learning"):
+    st.markdown(
+        """
+        - Aplicación de machine learning en python para el pronostico diario de energia y potencia del sistema.
+        """ )
 
 # ---------------------------
 # EDUCACIÓN
