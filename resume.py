@@ -39,7 +39,7 @@ with col1:
 with col2:
     st.markdown('<div class="title">Francisco Bustamante Álvarez</div>', unsafe_allow_html=True)
     st.markdown(
-        '<div class="subtitle">Especialista Senior en Planificación, Operaciones y Performance</div>',
+        '<div class="subtitle">Especialista Senior en Planificación, Operaciones y Performance ENEL Generación</div>',
         unsafe_allow_html=True
     )
     st.write("📍 Santiago, Chile")
@@ -61,6 +61,9 @@ st.write(
     Profesional analítico, curioso y con alta **honestidad intelectual**, orientado a la mejora continua,
     optimización de procesos y toma de decisiones basada en datos. Fuerte interés en el diseño de nuevos
     procesos, automatización y visualización de indicadores.
+
+    Entusiasmado en explorar nuevas áreas y desafios profesionales, ampliando continuamente mis conocimientos técnicos
+    y estrategicos, con una fuerte orientación al aprendizaje, la mejora continua y la aplicación práctica en contextos reales de negocio.
     """
 )
 
@@ -70,12 +73,16 @@ st.write(
 st.header("💪 Fortalezas")
 st.markdown(
     """
+
     - Especialista en **operación de redes eléctricas** y análisis de sistemas de potencia  
-    - Gestión de **performance operacional** y KPIs  
-    - Análisis y simulación de escenarios complejos del sistema eléctrico  
-    - Automatización de visualizadores para gestión de riesgos  
-    - Integración de **datos, regulación y operación**
-    - Promueve la integración en el grupo
+    - Gestión de **performance operacional**, KPIs y seguimiento de indicadores críticos  
+    - Análisis y simulación de **escenarios complejos** para apoyar la toma de decisiones estratégicas  
+    - Automatización de visualizadores para la **gestión proactiva de riesgos operativos**  
+    - Integración efectiva de **datos, regulación y operación** en contextos de alta complejidad  
+    - **Soporte a la toma de decisiones** técnicas y operacionales mediante análisis estructurado y basado en datos  
+    - **Liderazgo transversal**, promoviendo la colaboración, alineamiento y cohesión dentro de los equipos de trabajo
+    - Aporta visión analítica y criterio técnico para la **toma de decisiones estratégicas**, facilitando la integración y alineamiento del equipo
+
     """
 )
 
@@ -84,8 +91,8 @@ st.markdown(
 # ---------------------------
 st.header("💼 Experiencia Profesional")
 
-with st.expander("ENEL Generación Chile | Especialista Senior OP, Performance y Planificación"):
-    st.write("**Periodo:** Abril 2024 – Actualidad")
+with st.expander("ENEL Generación Chile | Especialista Senior OP, Performance y Planificación  |**Periodo:** Abril 2024 – Actualidad"):
+
     st.markdown(
         """
         - Gestión comercial y operativa asociada a la **compraventa de combustibles**
@@ -95,8 +102,8 @@ with st.expander("ENEL Generación Chile | Especialista Senior OP, Performance y
         """
     )
 
-with st.expander("ENEL Distribución Chile | Especialista Senior Estudios"):
-    st.write("**Periodo:** Octubre 2018 – Abril 2024")
+with st.expander("ENEL Distribución Chile | Especialista Senior Estudios|**Periodo:** Octubre 2018 – Abril 2024"):
+
     st.markdown(
         """
         - Análisis y ejecución de **estudios y simulaciones** del sistema eléctrico
@@ -106,8 +113,8 @@ with st.expander("ENEL Distribución Chile | Especialista Senior Estudios"):
         """
     )
 
-with st.expander("Superintendencia de Electricidad y Combustibles | Fiscalizador ERNC"):
-    st.write("**Periodo:** Mayo 2018 – Septiembre 2018")
+with st.expander("Superintendencia de Electricidad y Combustibles | Fiscalizador ERNC |**Periodo:** Mayo 2018 – Septiembre 2018 "):
+
     st.markdown(
         """
         - Fiscalización del marco normativo asociado a **generación distribuida**
@@ -116,8 +123,8 @@ with st.expander("Superintendencia de Electricidad y Combustibles | Fiscalizador
         """
     )
 
-with st.expander("ENEL Distribución Chile | Especialista en Planificación e Inversiones"):
-    st.write("**Periodo:** Octubre 2016 – Abril 2018")
+with st.expander("ENEL Distribución Chile | Especialista en Planificación e Inversiones | **Periodo:** Octubre 2016 – Abril 2018"):
+
     st.markdown(
         """
         - Desarrollo de proyectos de **ingeniería de distribución eléctrica**
@@ -125,14 +132,28 @@ with st.expander("ENEL Distribución Chile | Especialista en Planificación e In
         """
     )
 
-with st.expander("INACAP | Docente"):
-    st.write("**Periodo:** Enero 2025 – Febrero 2026")
+with st.expander("INACAP | Docente | **Periodo:** Enero 2025 – Febrero 2026"):
+
     st.markdown(
         """
         - Docente en **Almacenamiento Eléctrico**
         - Docente en **Redes Inteligentes**
         """
     )
+
+# ---------------------------
+# PROYECTOS INVOLUCRADOS
+# ---------------------------
+st.header("💡 Proyectos desarrollados")
+
+with st.expander("Plataforma gestión de solicitudes de suministro de gas"):
+
+    st.markdown(
+        """
+        no sé que poner pero sirve
+        """
+    )
+
 
 # ---------------------------
 # EDUCACIÓN
@@ -165,6 +186,8 @@ with col1:
     st.write("- Planificación y performance")
     st.write("- Estudios eléctricos")
     st.write("- Regulación eléctrica")
+    st.write("- Gestión del riesgo")
+    st.write("- Manejo de contratos de grandes clientes")
 
 with col2:
     st.subheader("Herramientas")
