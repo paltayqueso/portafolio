@@ -110,6 +110,7 @@ with st.expander("ENEL Distribución Chile | Especialista Senior Estudios|**Peri
         - Evaluación de condiciones críticas y escenarios de alta complejidad
         - Desarrollo de **visualizadores automáticos** para gestión de riesgos operativos
         - Soporte a la toma de decisiones estratégicas
+        - Participación en planes de emergencia por contingencia del sistema eléctrico ej cortes masivos por lluvia, blackout
         """
     )
 
